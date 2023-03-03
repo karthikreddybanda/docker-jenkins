@@ -9,4 +9,4 @@ RUN apt-get update -y && \
 COPY index.html /var/www/html
 
 #Start the Apache Server
-CMD ["usr/sbin/apachetl", "-D", "FOREGROUND"]
+CMD ["usr/sbin/apachectl", "-D", "FOREGROUND"]
